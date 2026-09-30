@@ -128,5 +128,64 @@
       "models",
       "multimodal"
     ]
+  },
+  {
+    "name": "awesome-AI-agent-orchestration",
+    "repo": "awesome-AI-agent-orchestration",
+    "url": "https://github.com/awesome-llms-labs/awesome-AI-agent-orchestration",
+    "description": "The agent coordination layer: orchestration frameworks, protocols, memory, platforms, evals, and papers",
+    "categories": [
+      "agents",
+      "orchestration",
+      "protocols",
+      "evaluation",
+      "papers"
+    ]
+  },
+  {
+    "name": "awesome-multi-agents-workflow",
+    "repo": "awesome-multi-agents-workflow",
+    "url": "https://github.com/awesome-llms-labs/awesome-multi-agents-workflow",
+    "description": "Multi-agent collaboration: crews, swarms, supervisor teams, protocols, and the infrastructure that runs them",
+    "categories": [
+      "agents",
+      "orchestration",
+      "workflows",
+      "protocols"
+    ]
+  },
+  {
+    "name": "awesome-oss-macos",
+    "repo": "awesome-oss-macos",
+    "url": "https://github.com/awesome-llms-labs/awesome-oss-macos",
+    "description": "Open-source macOS applications: 80 apps across 10 categories, all licenses verified",
+    "categories": [
+      "macos",
+      "applications",
+      "open-source"
+    ]
+  },
+  {
+    "name": "awesome-rag",
+    "repo": "awesome-rag",
+    "url": "https://github.com/awesome-llms-labs/awesome-rag",
+    "description": "Retrieval-augmented generation: vector stores, embeddings, chunking, frameworks, and evals",
+    "categories": [
+      "rag",
+      "retrieval",
+      "databases",
+      "evaluation"
+    ]
+  },
+  {
+    "name": "awesome-startup-credits",
+    "repo": "awesome-startup-credits",
+    "url": "https://github.com/awesome-llms-labs/awesome-startup-credits",
+    "description": "Startup credit programs: cloud infra, AI API credits, devtools, and cash grants",
+    "categories": [
+      "credits",
+      "cloud",
+      "grants"
+    ]
   }
 ]
