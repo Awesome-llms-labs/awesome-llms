@@ -4,4 +4,9 @@ exclude = [
   "https://github.com/awesome-llms-labs/awesome-prompt-engineering",
   "https://github.com/awesome-llms-labs/awesome-llm-observability",
   "https://github.com/awesome-llms-labs/awesome-multimodal-llms",
+  # CI badge 404s until this repo is transferred into the org; remove after transfer.
+  "https://github.com/awesome-llms-labs/awesome-llms/actions/workflows/ci.yml/badge.svg",
 ]
+# Be lenient with rate-limited hosts; retry before failing.
+max_retries = 3
+timeout = 30
