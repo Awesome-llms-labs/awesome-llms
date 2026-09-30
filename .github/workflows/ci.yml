@@ -1,0 +1,53 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  links:
+    name: Link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config .lychee.toml --no-progress './**/*.md'
+          fail: true
+
+  data:
+    name: Validate data files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate index.json
+        run: |
+          python3 - <<'EOF'
+          import json
+
+          required = {"name", "repo", "url", "description", "categories"}
+          path = "data/index.json"
+          data = json.load(open(path))
+          assert isinstance(data, list) and data, f"{path} must be a non-empty list"
+          names = set()
+          for i, e in enumerate(data):
+              missing = required - e.keys()
+              assert not missing, f"entry {i} ({e.get('name')}) missing {missing}"
+              assert e["name"] not in names, f"entry {i} duplicate name {e['name']}"
+              names.add(e["name"])
+              assert e["url"] == f"https://github.com/awesome-llms-labs/{e['repo']}", \
+                  f"entry {i} ({e['name']}) url must match repo slug"
+              assert e["url"].startswith("https://"), f"entry {i} url must be https"
+              assert isinstance(e["description"], str) and e["description"].strip(), \
+                  f"entry {i} description must be non-empty"
+              assert isinstance(e["categories"], list) and e["categories"], \
+                  f"entry {i} categories must be a non-empty list"
+              assert all(isinstance(c, str) and c == c.lower() for c in e["categories"]), \
+                  f"entry {i} categories must be lowercase strings"
+          print(f"OK: {path}: {len(data)} entries validated")
+          EOF

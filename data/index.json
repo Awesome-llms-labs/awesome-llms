@@ -1,0 +1,132 @@
+[
+  {
+    "name": "awesome-decisions-llms",
+    "repo": "awesome-decisions-llms",
+    "url": "https://github.com/awesome-llms-labs/awesome-decisions-llms",
+    "description": "LLMs for decision-making: decision-tuned models, benchmarks & evals, frameworks",
+    "categories": [
+      "models",
+      "benchmarks",
+      "frameworks",
+      "papers"
+    ]
+  },
+  {
+    "name": "awesome-fast-llms",
+    "repo": "awesome-fast-llms",
+    "url": "https://github.com/awesome-llms-labs/awesome-fast-llms",
+    "description": "Inference-speed LLMs: models, providers, engines, optimization techniques",
+    "categories": [
+      "models",
+      "providers",
+      "engines",
+      "optimization",
+      "hardware"
+    ]
+  },
+  {
+    "name": "awesome-flagship-llms",
+    "repo": "awesome-flagship-llms",
+    "url": "https://github.com/awesome-llms-labs/awesome-flagship-llms",
+    "description": "Frontier flagship models, benchmark notes, verified pricing",
+    "categories": [
+      "models",
+      "benchmarks"
+    ]
+  },
+  {
+    "name": "awesome-flash-llms",
+    "repo": "awesome-flash-llms",
+    "url": "https://github.com/awesome-llms-labs/awesome-flash-llms",
+    "description": "Flash-class efficiency models + where to deploy and serve them",
+    "categories": [
+      "models",
+      "platforms",
+      "deployment"
+    ]
+  },
+  {
+    "name": "awesome-free-llms",
+    "repo": "awesome-free-llms",
+    "url": "https://github.com/awesome-llms-labs/awesome-free-llms",
+    "description": "Genuinely free LLMs: free API tiers, free chat apps, open-weight local models",
+    "categories": [
+      "apis",
+      "apps",
+      "open-weights"
+    ]
+  },
+  {
+    "name": "awesome-ai-agents",
+    "repo": "awesome-ai-agents",
+    "url": "https://github.com/awesome-llms-labs/awesome-ai-agents",
+    "description": "The AI agent ecosystem: frameworks, tools, and platforms",
+    "categories": [
+      "agents",
+      "frameworks",
+      "tools"
+    ]
+  },
+  {
+    "name": "awesome-ai-sandboxes",
+    "repo": "awesome-ai-sandboxes",
+    "url": "https://github.com/awesome-llms-labs/awesome-ai-sandboxes",
+    "description": "AI sandboxes: managed, open-source, and browser-based",
+    "categories": [
+      "sandboxes",
+      "infrastructure"
+    ]
+  },
+  {
+    "name": "awesome-jev",
+    "repo": "awesome-jev",
+    "url": "https://github.com/awesome-llms-labs/awesome-jev",
+    "description": "TypeSafe's Jev (System One): docs, examples, and resources",
+    "categories": [
+      "decision-engines",
+      "docs",
+      "examples"
+    ]
+  },
+  {
+    "name": "awesome-microVM",
+    "repo": "awesome-microVM",
+    "url": "https://github.com/awesome-llms-labs/awesome-microVM",
+    "description": "The microVM ecosystem, from Firecracker to macOS-native runtimes",
+    "categories": [
+      "virtualization",
+      "infrastructure"
+    ]
+  },
+  {
+    "name": "awesome-prompt-engineering",
+    "repo": "awesome-prompt-engineering",
+    "url": "https://github.com/awesome-llms-labs/awesome-prompt-engineering",
+    "description": "Prompt engineering: techniques, patterns, and guides",
+    "categories": [
+      "prompting",
+      "guides"
+    ]
+  },
+  {
+    "name": "awesome-llm-observability",
+    "repo": "awesome-llm-observability",
+    "url": "https://github.com/awesome-llms-labs/awesome-llm-observability",
+    "description": "LLM observability: tracing, evals-ops, and monitoring",
+    "categories": [
+      "observability",
+      "evaluation",
+      "monitoring"
+    ]
+  },
+  {
+    "name": "awesome-multimodal-llms",
+    "repo": "awesome-multimodal-llms",
+    "url": "https://github.com/awesome-llms-labs/awesome-multimodal-llms",
+    "description": "Multimodal and vision-capable LLMs",
+    "categories": [
+      "models",
+      "multimodal"
+    ]
+  }
+]

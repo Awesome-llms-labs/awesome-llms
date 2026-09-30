@@ -1,0 +1,7 @@
+# The three newest lists are being created in parallel and may 404 until they land.
+# Remove these excludes once all 12 repos exist.
+exclude = [
+  "https://github.com/awesome-llms-labs/awesome-prompt-engineering",
+  "https://github.com/awesome-llms-labs/awesome-llm-observability",
+  "https://github.com/awesome-llms-labs/awesome-multimodal-llms",
+]
