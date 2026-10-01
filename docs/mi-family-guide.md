@@ -1,0 +1,60 @@
+# Family guide
+
+How the nineteen Awesome-llms-labs lists fit together — and which one to open first.
+
+## The model lists
+
+Four lists slice the model landscape along different axes, deliberately:
+
+- **awesome-flagship-llms** — the frontier: the biggest, most capable models, benchmark notes, verified pricing.
+- **awesome-flash-llms** — the efficiency tier: Flash-class models that trade a little capability for a lot of cost savings, plus where to deploy them.
+- **awesome-fast-llms** — the speed axis: which models, providers, engines, and techniques maximize tokens/sec and minimize latency.
+- **awesome-free-llms** — the price axis at zero: free API tiers, free chat apps, and open-weight models you can run locally.
+
+Rule of thumb: flagship = "what's the best", flash = "what's the cheapest per unit of quality", fast = "what's the quickest", free = "what costs nothing".
+
+## The decision & agent cluster
+
+- **awesome-decisions-llms** — models, benchmarks, and frameworks for *decision-making*: game-theoretic evals, multi-criteria choice, debate pipelines.
+- **awesome-ai-agents** — the agent ecosystem: frameworks, tools, and platforms for building agents. The broad starting point for anything agent-related.
+- **awesome-AI-agent-orchestration** — the coordination mechanisms: how agents (one or many) are composed, routed, and made reliable over long horizons — graphs, handoffs, protocols, memory, durable execution.
+- **awesome-multi-agents-workflow** — multi-agent teams as working systems: crews, supervisor teams, debates, and the SaaS/cloud platforms and workflow infrastructure that run them. Single-agent frameworks are out of scope here.
+- **awesome-jev** — a deep dive on one decision engine: TypeSafe's Jev (System One), with docs and runnable examples.
+- **awesome-prompt-engineering** — techniques and patterns for steering model behavior.
+
+Rule of thumb: agents = "what exists", orchestration = "how they coordinate", multi-agents-workflow = "teams as products".
+
+## The retrieval & production cluster
+
+- **awesome-rag** — retrieval-augmented generation: frameworks, vector databases, embeddings and chunking tooling, hybrid search and reranking, advanced patterns (GraphRAG, agentic RAG), evaluation, and papers.
+- **awesome-llm-observability** — tracing, evals-ops, and monitoring for LLM systems in production.
+
+## The speech cluster
+
+- **Awesome-llm-asr** — LLM-era speech recognition: models, APIs, datasets, and benchmarks.
+- **Awesome-llm-tts** — LLM-era text-to-speech: neural models, streaming engines, commercial APIs (with free-trial notes), and datasets.
+
+Rule of thumb: ASR is the ears, TTS is the voice — the two halves of spoken interaction with LLMs.
+
+## The infrastructure cluster
+
+- **awesome-ai-sandboxes** — sandboxes for running untrusted or generated code: managed, open-source, browser-based.
+- **awesome-microVM** — the microVM substrate underneath many sandboxes, from Firecracker to macOS-native runtimes.
+- **awesome-oss-macos** — open-source macOS applications: native and cross-platform tools for the desktop.
+
+## The startup cluster
+
+- **awesome-startup-credits** — startup credit programs: cloud infra credits, AI API credits, dev-tool offers, and cash grants. Equity investments are clearly labeled as such.
+
+## The frontier cluster
+
+- **awesome-multimodal-llms** — models that see: vision- and multimodal-capable LLMs.
+
+## The house standard
+
+Every list in the family follows the same contract:
+
+- **Public and MIT licensed**, with machine-readable JSON under `data/`.
+- **Verified or flagged**: entries are checked against official sources; anything unverified is explicitly marked — specs are never invented.
+- **Green CI**: link-checked and data-validated on every push, plus a monthly scheduled link-rot check.
+- **Docs + CONTRIBUTING**: each repo explains its scope and how to add entries.
